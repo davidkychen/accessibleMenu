@@ -1,0 +1,16 @@
+html, body, .container-fluid{
+	       height:100%;
+	    }
+    	.col-xs-4{
+    		background-color: #dedef8;
+    		box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;
+    	}
+    	.row{
+            font-size: 5.9vw;
+            display: table;
+        }
+        [class*="col-"] {
+            float: none;
+            display: table-cell;
+            vertical-align: top;
+        }
